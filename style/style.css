@@ -13,11 +13,6 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black');
 @import url('https://fonts.googleapis.com/css?family=Hind+Madurai:500');
 
-@font-face{
-    font-family: PTSans-Narrow;
-    src: url('../fonts/PTSans-Narrow.woff2');
-  }
-
 body{
     background-color: #f6f6f6;
 }
@@ -48,7 +43,7 @@ body{
 }
 
 h2{
-    font-family: PTSans-Narrow;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .bio p{
