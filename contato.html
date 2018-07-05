@@ -20,7 +20,7 @@
 <body>
 
     <div class="topo-total">            
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">        
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">        
                 <div class="container">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@
                         <div class="navbar-nav">
                         <a class="nav-item nav-link" href="index.html">Home</a>
                         <a class="nav-item nav-link" href="sobre.html">Sobre</a>
-                        <a class="nav-item nav-link" href="#">Porfolio</a>
+                        <a class="nav-item nav-link" href="portfolio.html">Porfolio</a>
                         <a class="nav-item nav-link active" href="#">Contato <span class="sr-only">(current)</span></a>
             
                         </div>
@@ -40,11 +40,11 @@
                 
             </nav>
     </div>
-    <section class="corpo">
+    <section class="corpo bg-contato">
         <div class="container">
             <div class="row" align="center">
                 <div class="form-group col-md-12">
-                    <h1>Fale com nossa equipe.</h1>
+                    <h1 class="display-4">Fale Conosco</h1>
                 </div>
             </div>
             <div class="row">
@@ -78,12 +78,12 @@
                         <div class="row">
                             <div class="form-group col-md-12 col-12">
                                 <label for="txt_mensagem">Mensagem:</label>
-                                <textarea name="txt_mensagem" id="txt_email" rows="10" class="form-control input-sm" required placeholder="Informe aqui a sua mensagem."></textarea>
+                                <textarea name="txt_mensagem" id="txt_email" rows="5" class="form-control input-sm textarea" required placeholder="Informe aqui a sua mensagem."></textarea>
                             </div>
                         </div>
                         
                         
-                        <input type="submit" id="button" name="button" class="btn btn-button btn-outline-warning">Enviar</input>
+                        <input type="submit" id="button" name="button" class="btn btn-button btn-warning"></input>
                         <br><br>
                     </form>
                 </div>
@@ -91,7 +91,8 @@
                 
                     <div class="row">
                         <div class="col-md-12">
-                            <p>
+                            <br>
+                            <p class="lead">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis dolorem facere aspernatur iusto, delectus eligendi quos est quam saepe magnam reprehenderit. Eligendi quasi aliquid, magnam maxime aspernatur id neque!
                             </p>
                         </div>
@@ -103,7 +104,7 @@
     </section>
 
 
-    <section class="footer">
+    <section class="footer bg-dark">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4" align="center">
@@ -113,7 +114,7 @@
                     <ul class="menu-footer">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="sobre.html">Sobre</a></li>
-                        <li><a href="#">Portfólio</a></li>
+                        <li><a href="portfolio.html">Portfólio</a></li>
                         <li><a href="#">Contato</a></li>
                     </ul>
                 </div>
